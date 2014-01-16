@@ -1,0 +1,5 @@
+<%= div_for shout do %> 
+	<%= link_to shout.user.username, shout.user %><%# div for view helper, convenient for styling as well %>
+	<%= shout.body %>
+	<%= link_to time_ago_in_words(shout.created_at), shout %>
+<% end %>

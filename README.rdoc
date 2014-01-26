@@ -1,1 +1,1 @@
-thoughtbot.com shouter application
+thoughtbot.com shouter application tutorial
